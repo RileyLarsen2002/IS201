@@ -1,37 +1,37 @@
 
 
 body {
-    background-color: #f0f8ff; /* Light blue background */
-    font-family: serif; /* Font family for the entire body */
-    color: #070707; /* Font color for text */
+    background-color: #f0f8ff; 
+    font-family: serif; 
+    color: #070707; 
     margin: 0;
     padding: 0;
     /* Adding a transparent image as background */
     background-image: url('https://t3.ftcdn.net/jpg/08/05/05/52/360_F_805055299_DieN5lLIWkaxOdCeBHTqLiPSs5mx9oCs.jpg'); /* Add your image path here */
-    background-size: cover; /* Ensures the image covers the entire body */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 /* Anchor Link Styling */
 .anchor-link {
-    background-color: #439ef9; /* Blue background for the hyperlink */
-    color: white; /* White text color for the link */
-    padding: 5px 10px; /* Small padding around the link */
-    text-decoration: none; /* Removes underline from the link */
-    border-radius: 5px; /* Optional: Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    background-color: #439ef9; 
+    color: white; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 .anchor-link2 {
-    color: #0073e6; /* Blue color for the links */
-    text-decoration: none; /* Removes underline from links */
+    color: #0073e6; 
+    text-decoration: none; 
     margin-top: 100px;
 }
 
 .anchor-link:hover {
-    text-decoration: underline; /* Underline links on hover */
+    text-decoration: underline; 
 }
 
 
@@ -39,7 +39,7 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +49,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -60,7 +60,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -83,7 +83,7 @@ body {
 iframe {
     display: block;
     margin: 20px auto;
-    border-radius: 10px; /* Rounded corners for the video */
+    border-radius: 10px; 
 }
 
 
@@ -102,20 +102,20 @@ ol {
 
 /* Heading Styling */
 h1, h2 {
-    font-family: 'Georgia', serif; /* Serif font for headings */
+    font-family: 'Georgia', serif; 
     color: #22303d; /* Dark color for headings */
-    text-align: center; /* Center-align headings */
+    text-align: center; 
 }
 
 /* Hover Effects for List Items */
 ul li:hover, ol li:hover {
-    background-color: #e9f1f7; /* Light blue hover effect for list items */
+    background-color: #e9f1f7; 
     padding-left: 10px; /* Indentation on hover */
 }
 
 .no-bullets {
     list-style-type: none; /* Removes bullets from the list */
-    padding-left: 0; /* Optional: removes the default indentation from the list */
+    padding-left: 0; 
 }
 
 .headers {
